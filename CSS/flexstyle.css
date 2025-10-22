@@ -23,8 +23,8 @@ section {
   height: 150px;
   box-sizing: border-box;
   overflow: hidden;
+  display: flex;
 }
-
 .block {
   width: 200px; /* Встановіть ширину кожного блоку */
   height: 100px; /* Встановіть висоту кожного блоку */
@@ -32,26 +32,32 @@ section {
   background-color: #ddd; /* Колір фону для кращої видимості блоків */
   border: 1px solid #333; /* Рамка блоків */
 }
+.section1,
+.section2 {
+  justify-content: space-between;
+}
+
 .left {
-  float: left;
+  display: flex;
+  margin-right: auto; /* Відсуває праві блоки якнайдалі */
 }
+
 .right {
-  float: right;
+  display: flex;
 }
-.section4,
-.section5 {
-  height: 300px;
-}
-.center {
-  width: 500px;
-  margin: 0 auto;
-}
-.clear {
-  clear: right;
-}
+
 .big {
   height: 220px;
 }
+.section4 {
+  height: 300px;
+  justify-content: flex-end;
+}
+.section5 {
+  height: 300px;
+  justify-content: center;
+}
+
 a {
   color: white;
 }
