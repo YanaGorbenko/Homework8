@@ -1,0 +1,54 @@
+header {
+  background-color: cornflowerblue;
+  color: white;
+  font-family: Arial, sans-serif;
+  /* position: fixed; */
+  font-size: 30px;
+  text-align: center;
+  width: 100%;
+  padding: 20px 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(231, 232, 255);
+}
+
+section {
+  background-color: rgb(243, 249, 255);
+  margin: 50px 20px;
+  border: 2px solid rgb(180, 190, 221);
+  border-radius: 8px;
+  padding: 16px 20px;
+  height: 150px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.block {
+  width: 200px; /* Встановіть ширину кожного блоку */
+  height: 100px; /* Встановіть висоту кожного блоку */
+  margin: 10px; /* Додайте відступи для візуального розділення блоків */
+  background-color: #ddd; /* Колір фону для кращої видимості блоків */
+  border: 1px solid #333; /* Рамка блоків */
+}
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+.section4,
+.section5 {
+  height: 300px;
+}
+.center {
+  width: 500px;
+  margin: 0 auto;
+}
+.clear {
+  clear: right;
+}
+.big {
+  height: 220px;
+}

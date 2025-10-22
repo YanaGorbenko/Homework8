@@ -1,0 +1,31 @@
+header {
+  background-color: cornflowerblue;
+  color: white;
+  font-family: Arial, sans-serif;
+  font-size: 30px;
+  text-align: center;
+  width: 100%;
+  padding: 20px 0;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+
+body {
+  background-color: rgb(231, 232, 255);
+  font-family: Arial, sans-serif;
+}
+
+section {
+  background-color: rgb(243, 249, 255);
+  margin: 50px 20px;
+  border: 2px solid rgb(180, 190, 221);
+  border-radius: 8px;
+  padding: 16px 20px;
+  font-size: 30px;
+}
+
+li {
+  background-color: rgb(231, 232, 255);
+  color: black;
+  margin-bottom: 10px;
+}
