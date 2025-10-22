@@ -2,7 +2,6 @@ header {
   background-color: cornflowerblue;
   color: white;
   font-family: Arial, sans-serif;
-  /* position: fixed; */
   font-size: 30px;
   text-align: center;
   width: 100%;
@@ -26,24 +25,27 @@ section {
   display: flex;
 }
 .block {
-  width: 200px; /* Встановіть ширину кожного блоку */
-  height: 100px; /* Встановіть висоту кожного блоку */
-  margin: 10px; /* Додайте відступи для візуального розділення блоків */
-  background-color: #ddd; /* Колір фону для кращої видимості блоків */
-  border: 1px solid #333; /* Рамка блоків */
+  width: 200px;
+  height: 100px;
+  margin-bottom: 10px;
+  background-color: #ddd;
+  border: 1px solid #333;
 }
 .section1,
 .section2 {
   justify-content: space-between;
+  column-gap: 10px;
 }
 
 .left {
   display: flex;
-  margin-right: auto; /* Відсуває праві блоки якнайдалі */
+  margin-right: auto;
+  column-gap: 10px;
 }
 
 .right {
   display: flex;
+  column-gap: 10px;
 }
 
 .big {
@@ -52,10 +54,12 @@ section {
 .section4 {
   height: 300px;
   justify-content: flex-end;
+  column-gap: 10px;
 }
 .section5 {
   height: 300px;
   justify-content: center;
+  column-gap: 10px;
 }
 
 a {
