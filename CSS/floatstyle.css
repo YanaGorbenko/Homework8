@@ -27,18 +27,24 @@ section {
 .block {
   width: 200px;
   height: 100px;
-  margin-bottom: 10px;
   background-color: #ddd;
   border: 1px solid #333;
 }
 .left {
   float: left;
-  margin-right: 10px;
+  /* margin-right: 10px; */
 }
 .right {
   float: right;
-  margin-left: 10px;
+  /* margin-left: 10px; */
 }
+
+.section2 .right:nth-child(3),
+.section2 .right:nth-child(2),
+.marg {
+  margin-right: 10px;
+}
+
 .section4,
 .section5 {
   height: 270px;
@@ -48,10 +54,12 @@ section {
   margin: 0 auto;
 }
 .clear {
+  margin-top: 10px;
   clear: right;
 }
 .big {
   height: 220px;
+  margin-right: 10px;
 }
 a {
   color: white;
